@@ -1,0 +1,101 @@
+a, a:focus, a:visited, a:active, a:link, a:hover{
+    outline: none;
+}
+
+.main-container h1{
+    margin: 30px 0;
+}
+
+.main-container h2{
+    font-size: 22px;
+}
+
+.main-container{
+    min-height: 400px;
+}
+
+.quiz-preview{
+    margin-top: 20px;
+}
+
+.quiz-preview p{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.quiz-preview ul li, .user-quiz li.question{
+    list-style-type: none;
+    background-repeat: no-repeat;
+    background-position: 0 top;
+    padding-left: 30px;
+    margin:  5px 0 5px 0;
+    line-height: 25px;
+    background-image: url('../images/question.jpg');
+}
+
+.user-quiz li.question{
+    display: none;
+}
+
+
+.user-quiz{
+    border: 1px solid #eaeaea;
+    border-radius: 20px;
+    margin:70px 0;
+    padding: 20px;
+}
+
+.user-quiz p.title{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.user-quiz li.question.visible{
+    display: block;
+}
+
+.user-quiz .show-next-question{
+    display: none;
+    width: 140px;
+    margin-left: 70px;
+}
+
+.user-quiz .answers{
+    padding: 0;
+}
+
+.quiz-boolean{
+    margin-right: 180px;
+}
+
+.user-quiz .single-choice .answers{
+    font-weight: bold;
+}
+
+.user-quiz .single-choice .answers li input{
+    display: none;
+}
+
+.user-quiz .single-choice .answers li:after{
+    content: '?';
+}
+
+.user-quiz .question p:before {
+    content: open-quote;
+}
+.user-quiz .question p:after {
+    content: close-quote;
+}
+
+.user-quiz .question .answers .answer-single-choice{
+    margin-right: 10px;
+    margin-top: 30px;
+}
+
+.user-quiz .question .answers li{
+    list-style-type: none;
+}
+.user-quiz .question .answers li input{
+    margin: 0 5px;
+}
